@@ -1,0 +1,137 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgba(193, 193, 193, 0.1);
+}
+
+nav {
+  background-color: rgba(164, 164, 164, 0.9);
+  padding: 10px;
+}
+
+#scrollerbox {
+  position: relative;
+  overflow: auto;
+}
+
+.services-wrapper {
+  background-color: #fff;
+}
+
+.cardHead {
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.cardHead:before, .cardHead:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 15%;
+}
+
+.cardHead:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.cardHead:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.rounded-circle {
+  margin-left: 105px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.subHead {
+  margin-left: 80px;
+}
+
+.col-lg-4 p {
+  margin: 30px;
+  text-align: center;
+}
+
+.col-lg-4 img {
+  filter: grayscale();
+}
+
+.col-lg-4 img:hover {
+  filter: url("img/placeimg1.jpg");
+  filter: none;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+#req-form1, #req-form2, #req-form3 {
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+
+.email {
+  margin-top: 10px;
+}
+
+.firstBnt {
+  padding-top: 23px;
+}
+
+.middle {
+  padding-top: 23px;
+}
+
+.aboutWrapper {
+  width: auto;
+  height: auto;
+  text-align: center;
+  background-color: rgba(146, 146, 146, 0.3);
+}
+
+.name {
+  padding: 30px;
+  font-weight: bold
+}
+
+.aboutWrapper p {
+  padding: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.jumbotron {
+  background: #358CCE;
+  color: #FFF;
+  border-radius: 0px;
+}
+
+.jumbotron-sm {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.jumbotron small {
+  color: #FFF;
+}
+
+.h1 small {
+  font-size: 24px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(146, 146, 146, 0.3);
+  margin-top: 20px;
+}
+
+.footer p {
+  text-align: center;
+  padding-top: 50px;
+}
